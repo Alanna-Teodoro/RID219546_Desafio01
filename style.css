@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Inter';
+}
+
+#FundoCabeçalho{
+    width: 100%;
+    height: 200px;
+}
+#Cabeçalho{
+    background-color: #303030;
+    padding: 50px;
+}
+
+#Título{
+    margin-top: 100px;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 60px;
+    background-color: #303030;
+}
+
+#Subtítulo{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: #303030;
+ }
+
+#SegundoCampo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    columns: auto;
+    font-family: 'Inter';
+}
+    
+#TextoTerceiroCampo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;    
+}
+
+#imagem{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#Arquitetos{
+    font-family: 'Inter';
+    font-style: medium;
+    font-size: 32px;
+    color: #000000;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+
+#Parágrafo_apresentação{
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #000000;
+    margin-left: 100px;
+    margin-right: 0px;
+    
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    padding: 50px;
+}
+
+#titulo-formulario{
+    background-color: #303030;
+    font-size: 30px;
+    margin: 25px;
+    color: white;
+}
+
+#form{
+    background-color: #303030;
+}
+
+#text{
+    font-size: 25px; 
+    font-style: bold;
+}
+
+#email{
+    font-size: 25px; 
+    font-style: bold;
+}
+
+input{
+    width: 450px;
+    height: 70px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    height: 70px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: #C07225;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px #C07225;
+    transition-duration: 0.5s;
+}
